@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# La balise meta noindex de index.html bloque l'indexation avant validation.
