@@ -32,7 +32,7 @@
     link.textContent = number.display;
     link.setAttribute('aria-label', 'Appeler le ' + number.display);
 
-    result.replaceChildren(document.createTextNode('Téléphone : '), link, document.createTextNode(' — touchez le numéro pour appeler.'));
+    result.replaceChildren(document.createTextNode('Téléphone (France) : '), link, document.createTextNode(' — cliquez sur le numéro pour appeler.'));
     result.hidden = false;
     button.setAttribute('aria-expanded', 'true');
     button.textContent = 'Masquer le numéro';
