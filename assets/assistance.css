@@ -27,3 +27,27 @@
 .footer a{color:var(--accent)}
 @media(max-width:720px){.assist-hero{padding:25px 20px}.assist-content{padding:28px 0}.assist-method{padding:20px 17px}.assist-method-heading{gap:12px}.assist-number{flex-basis:36px;width:36px;height:36px}.assist-method-heading h3{font-size:21px}.assist-steps{padding-left:22px}.assist-safety{padding:19px}.assist-hero-actions{gap:14px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+
+/* Demande téléphonique : affichage à la demande, responsive et accessible */
+.assist-hero-actions .assist-call{
+  display:inline-flex;align-items:center;justify-content:center;
+  margin-left:0;padding:9px 15px;min-height:40px;
+  border:1px solid var(--accent);border-radius:5px;
+  color:var(--accent);background:transparent;
+  letter-spacing:0;text-transform:none;font-size:13px;font-weight:700;
+}
+.assist-hero-actions .assist-call:hover{background:var(--bg)}
+.assist-call-result{
+  margin-top:15px;padding:12px 16px;border:1px solid var(--line);
+  border-radius:7px;background:var(--panel);color:var(--muted);
+  font-size:15px;line-height:1.6;
+}
+.assist-phone-link{
+  color:var(--accent);font-size:18px;font-weight:800;
+  text-decoration:underline;text-underline-offset:3px;white-space:nowrap;
+}
+@media(max-width:500px){
+  .assist-hero-actions{gap:12px}
+  .assist-hero-actions .assist-call{margin-left:0}
+}
