@@ -11,6 +11,7 @@
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="assets/assistance.css">
 <script defer src="assets/main.js"></script>
+<script defer src="assets/telephone.js"></script>
 </head>
 <body>
 <a class="skip-link" href="#contenu">Aller au contenu</a>
@@ -27,7 +28,13 @@
 <p class="eyebrow">DÉPANNAGE INFORMATIQUE À DISTANCE</p>
 <h1>Préparons notre connexion</h1>
 <p>Je peux vous aider sur votre ordinateur sans me déplacer. Après notre premier échange, choisissez la méthode que je vous indique. Je vous accompagne au téléphone pendant les étapes.</p>
-<div class="assist-hero-actions"><a class="cta" href="contact.html?prestation=distance">Demander une assistance <span aria-hidden="true">↗</span></a><a class="assist-secondary" href="index.html#tarifs">Voir les tarifs</a></div>
+<div class="assist-hero-actions">
+<a class="cta" href="contact.html?prestation=distance">Demander une assistance <span aria-hidden="true">↗</span></a>
+<button type="button" class="assist-call" id="assist-call" aria-controls="assist-call-result" aria-expanded="false">Demander par téléphone</button>
+<a class="assist-secondary" href="index.html#tarifs">Voir les tarifs</a>
+</div>
+<div id="assist-call-result" class="assist-call-result" aria-live="polite" hidden></div>
+<noscript><p class="assist-small">Pour obtenir notre numéro, veuillez utiliser le formulaire de contact.</p></noscript>
 <p class="assist-small">Le premier échange d’évaluation est gratuit. Une intervention payante commence uniquement après votre accord sur le tarif et les modalités.</p>
 </section>
 <section class="assist-content" aria-labelledby="methods-title">
