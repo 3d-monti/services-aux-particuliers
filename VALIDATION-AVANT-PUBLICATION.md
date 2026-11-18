@@ -1,6 +1,6 @@
 # Validation avant publication
 
-La maquette et les tarifs sont intégrés. Les champs ci-dessous ne peuvent pas être inventés. Le site reste en `noindex` jusqu’à leur validation.
+La maquette et les tarifs sont intégrés. Les champs ci-dessous ne peuvent pas être inventés. Traiter les points suivants avant de mettre en ligne la version configurée pour l’indexation.
 
 ## Décisions indispensables
 
@@ -11,10 +11,10 @@ La maquette et les tarifs sont intégrés. Les champs ci-dessous ne peuvent pas 
 5. **Tarifs, fiscalité et modalités** : confirmer 30 € pour les 30 premières minutes, 20 € pour la deuxième demi-heure (soit 50 € la première heure complète), puis 40 €/h dès la deuxième heure, 60 € première heure à domicile puis 45 €/h, 25 € diagnostic, 40 €/h ou 60 €/h en formation, conditions des frais et des pièces, et la mention « Prix nets – TVA non applicable, article 293 B du CGI. ». Vérifier la cohérence de cette dernière avec la situation fiscale au jour de la mise en ligne.
 6. **Zone et dépôt** : préciser au client la zone géographique, les conditions pratiques de dépôt du matériel et le rendez-vous exact avant acceptation. Les coordonnées physiques ne sont pas inventées dans cette page.
 
-Après validation, intégrer les coordonnées légales et celles du médiateur sur le site et dans les CGV ; ajuster l’information sur le droit de rétractation selon les CGV ; supprimer la directive `noindex` ; tester le site sur le vrai sous-domaine et activer HTTPS.
+Après validation, intégrer les coordonnées légales et celles du médiateur sur le site et dans les CGV ; ajuster l’information sur le droit de rétractation selon les CGV ; vérifier les directives d’indexation sur le domaine officiel et contrôler l’accès en HTTPS.
 
 Sources : [Entreprendre Service Public — CGV](https://entreprendre.service-public.gouv.fr/vosdroits/F33527), [Service Public — droit de rétractation](https://www.service-public.gouv.fr/particuliers/vosdroits/F10485), [Économie.gouv.fr — mentions du site](https://www.economie.gouv.fr/entreprises/developper-son-entreprise/innover-et-numeriser-son-entreprise/mentions-sur-votre-site-internet-les-obligations-respecter), [Économie.gouv.fr — médiateur](https://www.economie.gouv.fr/mediation-conso/vous-etes-un-professionnel/vos-principales-obligations-0).
 
 ## Pages copiées du site principal
 
-`confidentialite.html` et `mentions-legales.html` reprennent le contenu du site principal au 19 octobre 2026, avec les liens de navigation adaptés. La confidentialité indique encore que la durée de conservation, les droits et les données techniques sont à préciser, et elle mentionne un champ « entreprise » absent du formulaire du nouveau site. Les mentions légales ne contiennent pas les coordonnées complètes ni le médiateur. Ces copies répondent à la demande de fidélité visuelle et textuelle ; leur contenu doit être validé et adapté avant publication commerciale.
+`confidentialite.html` et `mentions-legales.html` reprennent le contenu du site principal au 19 octobre 2026, avec les liens de navigation adaptés. La confidentialité indique encore que la durée de conservation, les droits et les données techniques sont à préciser, et le texte doit être vérifié par rapport aux champs du formulaire du site. Les mentions légales ne contiennent pas les coordonnées complètes ni le médiateur. Ces copies répondent à la demande de fidélité visuelle et textuelle ; leur contenu doit être validé et adapté avant publication commerciale.

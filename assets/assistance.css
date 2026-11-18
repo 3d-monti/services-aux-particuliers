@@ -1,6 +1,4 @@
 /* Guide d'assistance à distance : styles complémentaires, thème hérité du site */
-.skip-link{position:absolute;left:-9999px;top:auto}
-.skip-link:focus{left:12px;top:12px;z-index:10;background:var(--panel);padding:10px}
 .assist-hero{background:var(--hero);margin-top:20px;padding:36px 32px;border-radius:9px}
 .assist-hero h1{font-size:clamp(27px,3.5vw,39px);line-height:1.2;margin:10px 0 14px}
 .assist-hero>p:not(.eyebrow){color:var(--muted);max-width:720px;font-size:16px}

@@ -59,3 +59,8 @@
   .footer-nav{gap:8px 18px}
   .footer-nav a{font-size:13px;line-height:1.6}
 }
+
+/* Accès direct au contenu pour la navigation au clavier. */
+.skip-link{position:absolute;left:-9999px;top:auto}
+.skip-link:focus{left:12px;top:12px;z-index:10;background:var(--panel);padding:10px}
+:where(a,button):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
