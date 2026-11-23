@@ -64,3 +64,20 @@
 .skip-link{position:absolute;left:-9999px;top:auto}
 .skip-link:focus{left:12px;top:12px;z-index:10;background:var(--panel);padding:10px}
 :where(a,button):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+/* Page Contact : choix téléphonique et séparation avec le formulaire */
+.inner .contact-call-choice .assist-call{
+  background:var(--accent);color:#04202b;border-color:var(--accent);
+}
+.inner .contact-call-choice .assist-call:hover{
+  background:var(--accent);filter:brightness(1.08);
+}
+.contact-divider{
+  display:flex;align-items:center;gap:16px;margin:30px 0 0;
+  color:var(--muted);font-size:13px;font-weight:700;
+}
+.contact-divider::before,.contact-divider::after{
+  content:"";flex:1;height:1px;background:var(--line);
+}
+.contact-divider + .contact-layout{margin-top:18px}
+@media(max-width:720px){.contact-divider{gap:10px;margin-top:26px}}
